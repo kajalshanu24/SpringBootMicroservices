@@ -9,3 +9,6 @@ Below is the Tech Stack used:
     e. Spring Cloud Netflix(Eureka Server)- Discovery Server
     f. 
 
+Diagram:
+https://drive.google.com/file/d/1cBPzW5MYVrlLtTVOdal02LEPGSzrkIZy/view?usp=sharing
+

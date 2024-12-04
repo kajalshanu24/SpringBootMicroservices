@@ -34,6 +34,7 @@ public class OrderService {
 
         //Call Inventory Service and place order if product is in inventory/stock
         //As get method is exposed in inventory-service
+        //URI - As Inventory Service is registered with the Service Discovery then we are just using the inventory-service name not the Host and other details
         //Mono -
         InventoryResponse[] inventoryResponseArray = webClientBuilder.build().get()
                 .uri("http://inventory-service/api/inventory",
